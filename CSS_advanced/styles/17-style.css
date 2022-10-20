@@ -435,6 +435,7 @@ a:active {
     padding-top: var(--section-footer-padding);
     padding-bottom: var(--section-footer-padding);
     padding-right: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 .card-category, .section-tagline {
     color: var(--color-primary);
