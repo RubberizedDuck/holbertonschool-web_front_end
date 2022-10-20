@@ -377,6 +377,14 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-primary);
+
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -435,6 +443,7 @@ a:active {
     padding-top: var(--section-footer-padding);
     padding-bottom: var(--section-footer-padding);
     padding-right: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 .card-category, .section-tagline {
     color: var(--color-primary);
@@ -466,4 +475,37 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: var(--footer-padding);
     padding-bottom: var(--footer-padding);
     padding-right: var(--footer-padding);
+}
+.navbar-menu {
+    float: right;
+}
+.nav {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    list-style: none;
+    text-align: center;
+}
+.nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin-top: var(--nav-item-margin);
+    margin-bottom: var(--nav-item-margin);
+    margin-right: var(--nav-item-margin);
+    margin-left: var(--nav-item-margin);
+}
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
