@@ -526,7 +526,7 @@ ul.row {
     text-align: right;
 }
 .row::after {
-    content: none;
+    content: 0;
     display: table;
-    float: none;
+    float: 0;
 }
