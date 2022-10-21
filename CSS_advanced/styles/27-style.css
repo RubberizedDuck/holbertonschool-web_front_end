@@ -594,10 +594,7 @@ ul.row {
     color: var(--color-primary);
 }
 .section-hero {
-    background-size: contain;
-    background-size: cover;
-    width: 90rem;
-    height: auto;
+    background-size: 90rem auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
